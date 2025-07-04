@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+ 
+}
+
+.about{
+     /* background: linear-gradient(135deg, #2d3254 10% , #161827 50% , #0A1828 90%); */
+    background-color:#0A1828;
+    color: #cdb499;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.intro{
+    height:12%;
+    width:80%;
+}
+
+.introPara {
+    padding: 0px;
+    font-family: cursive;
+    font-style: italic ;
+    font-weight: 300;
+    text-align: center;
+    height:90%;
+}
+
+.skills-dabba{
+    height:70%;
+    width:80%;
+    background-color: #04090f;
+    border-radius: 10px ;
+    box-shadow: 5px 5px 10px rgba(45, 44, 44, 0.6);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.lang-dabba , .lib-dabba , .tool-dabba
+{
+    /* background-color:aqua ; */
+    width: 30%;
+    height: 80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    height:18%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.head{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.lang-icons , .lib-icons , .tool-icons
+{
+    height: 75%;
+    width: 90%;
+}
+
+.lang-icons{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.lang {
+    width: 80px;
+    height:80px;
+}
+
+.lib-icons{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.react{
+    width: 100px;
+    height:100px;
+}
+
+.tool-icons{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:10px;
+    /* grid-template-columns: repeat(2 , 1fr); */
+    /* padding-left: 15px; */
+    padding-top: 10px;
+}
+
+.tIcon{
+    width:70px;
+    height:65px;
+}
+/* 
+.lib-icons , .tool-icons{
+    border-left: 1px solid #cdb499;
+} */
+
+/* Responsive */
+@media(max-width:900px)
+{
+    .introPara {
+        font-size: 1.2em;
+    }
+
+    .skills-dabba{
+        height:80%;
+        width:70%;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        gap:10px;
+    }
+
+    .lang-dabba , .lib-dabba , .tool-dabba
+    {
+        width: 47%;
+        height: 47%;
+    }
+
+    .title{
+        padding: 0px;
+    }
+
+    .head{
+        font-size: 1.2rem;
+    }
+
+    .lang-icons{
+        margin-left: 20px;
+        padding-top: 15px;
+    }
+
+    .lang {
+        width: 60px;
+        height:60px;
+    }
+
+    .lib-icons{
+        padding-top: 20px;
+    }
+
+    .react{
+        width: 70px;
+        height:70px;
+    }
+    
+    .tIcon{
+        width:60px;
+        height:60px;
+    }
+}
+
+@media(max-width:715px)
+{
+    .introPara {
+        font-size: 1.1rem;
+    }
+
+    .head{
+        font-size: 1.2rem;
+    }
+
+    .lang-icons{
+       margin:0px;
+    }
+
+    .lang {
+        width: 55px;
+        height:55px;
+    }
+
+    .react{
+        width: 68px;
+        height:68px;
+    }
+}

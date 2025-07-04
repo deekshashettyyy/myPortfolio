@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+ 
+}
+
+.contact{
+    background-color:#0A1828;
+    color: #cdb499;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h2{
+  height:8%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+
+.form-dabba{
+    height:70%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+} 
+
+.form{
+    height:80%;
+    width:90%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dabba{
+    display:flex;
+    flex-direction: column;
+    height: 70px;
+}
+
+.dabba label{
+    font-size: 1.2rem;
+}
+
+.input , .button{
+    height:30px;
+    width:350px;
+    outline:none;
+}
+
+.button{
+    background-color: #cdb499;
+    color:#0A1828;
+    font-size:1.2rem;
+    padding:0;
+    margin-top: 20px;
+    border-radius: 2px;
+    border:none;
+    transition: transform 0.5s ease-in ;
+}
+
+.button:focus{
+    outline:none;
+}
+
+.button:hover{
+    transform: scale(1.05);
+}
+
+.contact-icons{
+    height:40px;
+    width:80px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.Cicon{
+    height:25px;
+    width:25px;
+    color: #cdb499;
+}
+
+.footer{
+    height:10%;
+    width:100%;
+    background-color: #292e4d;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
